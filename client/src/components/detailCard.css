@@ -1,0 +1,28 @@
+.challenge-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  width: 45vw;
+}
+
+.cardImage {
+  width: 300px;
+  height: 300px;
+}
+
+.cardBtn {
+  outline: none;
+  border: none;
+  background: #ef233c;
+  margin-right: 0.5rem;
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 3s ease-in-out;
+}
+.cardBtn:hover {
+  transform: scale(0.9);
+}

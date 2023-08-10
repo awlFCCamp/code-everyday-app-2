@@ -1,0 +1,16 @@
+.signup {
+  display: flex;
+  align-items: center;
+  color: #edf2f4;
+  gap: 2rem;
+}
+.flex-left {
+  flex: 6;
+}
+
+.flex-right {
+  flex: 6;
+}
+.signupForm {
+  width: 65%;
+}
