@@ -20,13 +20,10 @@ export const useLogin = () => {
       setError(res.data.error);
     }
     if (res.data) {
-      // save the user to local storage
       localStorage.setItem("user", JSON.stringify(res.data));
 
-      // update the auth context
       dispatch({ type: "LOGIN", payload: res.data });
 
-      // update loading state
       setIsLoading(false);
     }
   };

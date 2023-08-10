@@ -18,7 +18,7 @@ const Signup = () => {
   return (
     <div className="signup">
       <section className="flex-left">
-        <Lottie animationData={signupData} />
+        <Lottie className="signupImg" animationData={signupData} />
       </section>
       <div className="flex-right">
         <form className="signupForm" onSubmit={handleSubmit}>

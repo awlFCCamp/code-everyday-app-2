@@ -12,7 +12,7 @@ body {
   padding: 0;
   font-family: "Raleway", sans-serif;
   box-sizing: border-box;
-  max-width: 1600px;
+  /* max-width: 1600px;*/
   min-height: 100vh;
 }
 header {
@@ -71,7 +71,6 @@ header a {
   color: #333;
 }
 
-/* new workout form */
 label,
 input {
   display: block;
