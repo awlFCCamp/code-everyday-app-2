@@ -25,5 +25,5 @@ For my foundation capstone, I decided to develop a full-stack to encourage devel
 
 ### How to run the app
 
-1. for frontend npm install then npm run dev
-2. for backend npm install, setup dotenv file then nodemon server.js
+1. frontend npm i then npm run dev
+2. backend npm i, nodemon server.js
