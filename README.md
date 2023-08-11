@@ -19,9 +19,9 @@ For my foundation capstone, I decided to develop a full-stack to encourage devel
 
 ### Environment Variable needed to start the app
 
-1. server port
-2. connection string to atlas
-3. secret
+1. PORT
+2. MONGO_URI
+3. SECRET
 
 ### How to run the app
 
