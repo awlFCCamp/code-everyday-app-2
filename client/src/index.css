@@ -104,9 +104,11 @@ input.error {
   transition: transform 0.3s ease-in-out;
   margin-top: 0.5rem;
   border-radius: 0.5rem;
+  background: #d90429;
+  cursor: pointer;
+  color: #fff;
 }
 
 .formBtn:hover {
-  cursor: pointer;
   transform: scale(0.9);
 }
