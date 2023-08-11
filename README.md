@@ -22,8 +22,3 @@ For my foundation capstone, I decided to develop a full-stack to encourage devel
 1. PORT
 2. MONGO_URI
 3. SECRET
-
-### How to run the app
-
-1. frontend npm i then npm run dev
-2. backend npm i, nodemon server.js
